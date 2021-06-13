@@ -6,7 +6,7 @@ Plateau::Plateau() : QGraphicsView(new QGraphicsScene)
     piste = QImage(":/ressources/plateau");
     scene()->addPixmap(QPixmap::fromImage(piste));
 
-    scale(0.5, 0.5);
+    scale(0.75, 0.75);
 
     keyTimer.setInterval(10);
     connect(&keyTimer, &QTimer::timeout, this, &Plateau::keyTimerMove);
