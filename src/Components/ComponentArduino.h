@@ -2,8 +2,8 @@
 #define COMPONENTARDUINO_H
 
 #include "Component.h"
-#include <QList>
-#include <QThread>
+#include <QtCore/QList>
+#include <QtCore/QThread>
 #include "Wire.h"
 #include "Serial.h"
 

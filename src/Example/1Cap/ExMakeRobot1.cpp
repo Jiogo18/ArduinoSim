@@ -1,6 +1,6 @@
 #ifdef ARDUINO_SIM_EXAMPLE_1
 
-#include <QApplication>
+#include <QtWidgets/QApplication>
 #include "ArduinoSim.h"
 
 // Les composants utilisés :

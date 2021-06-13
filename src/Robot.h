@@ -1,9 +1,9 @@
 #ifndef ROBOT_H
 #define ROBOT_H
 
-#include <QGraphicsItemGroup>
-#include <QTimer>
-#include <QList>
+#include <QtWidgets/QGraphicsItemGroup>
+#include <QtCore/QTimer>
+#include <QtCore/QList>
 #include "Components/Component.h"
 #include "Components/ComponentWheel.h"
 #include "Components/ComponentArduino.h"

@@ -1,7 +1,7 @@
 #ifndef PLATEAU_H
 #define PLATEAU_H
 
-#include <QGraphicsView>
+#include <QtWidgets/QGraphicsView>
 #include "Robot.h"
 
 class ARDUINO_SIM_EXPORT Plateau : public QGraphicsView

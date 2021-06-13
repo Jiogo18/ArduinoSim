@@ -2,7 +2,7 @@
 #define WIRE_H
 
 #include "Links/HE10.h"
-#include <QList>
+#include <QtCore/QList>
 
 class ARDUINO_SIM_EXPORT WireLib
 {

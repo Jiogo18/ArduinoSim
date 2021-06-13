@@ -2,7 +2,7 @@
 #define COMPONENTWHEEL_H
 
 #include "Component.h"
-#include <QRandomGenerator>
+#include <QtCore/QRandomGenerator>
 
 class ARDUINO_SIM_EXPORT ComponentWheel : public Component
 {

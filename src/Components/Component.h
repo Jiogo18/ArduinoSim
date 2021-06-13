@@ -1,8 +1,8 @@
 #ifndef COMPONENT_H
 #define COMPONENT_H
 
-#include <QGraphicsPixmapItem>
-#include <QPainter>
+#include <QtWidgets/QGraphicsPixmapItem>
+#include <QtGui/QPainter>
 #include "../Links/Pin.h"
 #include "../Links/HE10.h"
 

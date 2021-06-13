@@ -1,7 +1,7 @@
 #ifndef HE10_H
 #define HE10_H
 
-#include <QObject>
+#include <QtCore/QObject>
 #include "ArduinoSimLibGlobal.h"
 
 class ARDUINO_SIM_EXPORT HE10 : public QObject

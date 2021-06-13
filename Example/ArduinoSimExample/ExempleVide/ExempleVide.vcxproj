@@ -24,7 +24,7 @@
     <ProjectGuid>{993c9897-1c19-4142-9dcf-a3b729e9e6fb}</ProjectGuid>
     <RootNamespace>ExempleVide</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <IncludePath>$(ProjectDir)../../../src;$(ProjectDir)../../../extern/Qt6/include;$(ProjectDir)../../../extern;$(ProjectDir)../../../extern/Qt6/include/QtCore;$(ProjectDir)../../../extern/Qt6/include/QtGui;$(ProjectDir)../../../extern/Qt6/include/QtWidgets;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)../../../src;$(ProjectDir)../../../extern/Qt6/include;$(ProjectDir)../../../extern;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
