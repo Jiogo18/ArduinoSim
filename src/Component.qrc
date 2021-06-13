@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ressources/arduino-UNO.png</file>
+        <file>ressources/sensorOff.png</file>
+        <file>ressources/sensorOn.png</file>
+        <file>ressources/moteur.png</file>
+        <file>ressources/plateau.png</file>
+    </qresource>
+</RCC>

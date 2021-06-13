@@ -1,0 +1,13 @@
+#ifndef ARDUINOSIMLIBGLOBAL_H
+#define ARDUINOSIMLIBGLOBAL_H
+
+#include <QtCore/QtGlobal>
+
+#if defined(ARDUINO_SIM_LIBRARY)
+#  define ARDUINO_SIM_EXPORT Q_DECL_EXPORT
+#else
+#  define ARDUINO_SIM_EXPORT Q_DECL_IMPORT
+#endif
+
+
+#endif // ARDUINOSIMLIBGLOBAL_H
